@@ -1,0 +1,25 @@
+---
+title: "Contact us"
+layout: "contact_layout"
+isPage: true
+class: "contact"
+address: "205 rue de Lille, 59100 Roubaix, France"
+---
+
+<h2><span>Contact form</span></h2>
+<p>Simply fill in your details below and one of our business development managers will contact you.</p>
+
+<form action="/contact/#wpcf7-f185-p176-o1" method="post">
+<p>Your Name (required)<br>
+    <span><input type="text" name="name" value="" size="40" class="required" aria-required="true"></span></p>
+<p>Your Email (required)<br>
+    <span><input type="email" name="email" value="" size="40" class="required email" aria-required="true"></span></p>
+<p>Subject<br>
+    <span><input type="text" name="subject" value="" size="40" class="wpcf7-form-control wpcf7-text"></span></p>
+<p>Your Message<br>
+    <span><textarea name="message" cols="40" rows="10"></textarea></span></p>
+<p>Prove that you are Human<br><br>
+    <input type="hidden" name="captcha_challenge" value="252878950"><img class="captcha" width="72" height="24" alt="captcha" src=""><br>
+    <span><input type="text" name="captcha" value="" size="40"></span></p>
+<p><input type="submit" value="Send"><img class="ajax-loader" src="http://www.freightforge.com/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"></p>
+</form>

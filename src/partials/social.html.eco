@@ -1,0 +1,9 @@
+<div class="social-icons">
+    <ul>
+        <% if @site.social.googleplus : %><li class="social-googleplus"><a href="<%= @site.social.googleplus %>" target="_blank" title="Google+">Google+</a></li><% end %>
+        <% if @site.social.linkedin : %><li class="social-linkedin"><a href="<%= @site.social.linkedin %>" target="_blank" title="Linkedin">Linkedin</a></li><% end %>
+        <% if @site.social.twitter : %><li class="social-twitter"><a href="<%= @site.social.twitter %>" target="_blank" title="Twitter">Twtter</a></li><% end %>
+        <% if @site.social.vimeo : %><li class="social-vimeo"><a href="<%= @site.social.vimeo %>" target="_blank" title="Vimeo">Vimeo</a></li><% end %>
+        <% if @site.social.github : %><li class="social-github"><a href="<%= @site.social.github %>" target="_blank" title="Google+">GitHub</a></li><% end %>
+    </ul>
+</div>

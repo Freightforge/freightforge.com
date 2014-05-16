@@ -1,0 +1,46 @@
+<%= @partial('head') %>
+<body class="<%= @document.class %>">
+<div id="boxed-layout">
+<div id="topbar" class="clearfix">
+    <%= @partial('social') %>
+</div>
+<header id="global-header" class="navbar">
+    <div class="logo">
+        <a href="<%= @site.url %>">FreightForge</a>
+    </div>
+    <div id="login" class="clearfix">
+        <!--
+        <div class="lang">
+            <div class="lbl">Change Language</div>
+            <div class="flag flag-<%= @document.lang or 'en' %> current"></div>
+            <div id="lang-selector" class="lang-selector">
+                <% if @document.lang and @document.lang isnt 'en': %><div class="flag flag-en"><a href="/" title="English"></a></div> <% end %>
+                <% if not @document.lang or @document.lang isnt 'fr': %><div class="flag flag-fr"><a href="/fr" title="Français"></a></div><% end %>
+            </div>
+        </div>
+        -->
+        <form id="login_form" action="https://app.didrok.com/signup" method="post">
+            <input type="hidden" value="true" name="use_token">
+            <input type="hidden" value="/" name="redirect">
+            <input type="email" placeholder="Email" name="j_username">
+            <input type="password" placeholder="Password" name="j_password">
+            <input type="submit" value="Log In">
+            <a class="button" href="https://app.didrok.com/register">Register</a>
+        </form>
+    </div>
+    <nav role="navigation" class="affix-top" data-spy="affix" data-offset-top="100">
+        <div class="wrapper">
+            <button type="button" class="mobile-menu" data-toggle="collapse" data-target=".nav-collapse"><span class="hidden">Menu</span></button>
+            <ul id="main-menu" class="nav-collapse collapse">
+                <li <%- "class=\"active\"" if @document.class is "feature" %>><a href="/features">Features</a></li>
+                <li <%- "class=\"active\"" if @document.class is "pricing" %>><a href="/pricing">Pricing</a></li>
+                <li <%- "class=\"active\"" if @document.class in ["faq", "forum", "contact"] %>><a href="/support" class="dropdown-toggle" data-toggle="dropdown">Support<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li <%- "class=\"active\"" if @document.class is "faq" %>><a href="/faq">FAQ</a></li>
+                        <li <%- "class=\"active\"" if @document.class is "contact" %>><a href="/contact">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,11 @@
+<%= @partial('header') %>
+<section class="title">
+    <h1><%= @document.title %></h1>
+</section>
+<hr class="large"/>
+<main role="main">
+    <section class="content">
+        <%- @content %>
+    </section>
+</main>
+<%= @partial('footer') %>

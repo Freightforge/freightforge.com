@@ -1,0 +1,317 @@
+<section class="featurebanner">
+<!-- START REVOLUTION SLIDER 3.1 -->
+<div class="fullwidthbanner-container">
+<div class="fullwidthbanner" style="display:none;">
+<ul>
+<!-- SLIDE  -->
+<li data-transition="fade" data-slotamount="7" data-masterspeed="300">
+    <img src="/img/bg_light.png" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+    <!-- LAYERS -->
+    <!-- LAYER NR. 1 -->
+    <div class="tp-caption fade"
+         data-x="398"
+         data-y="6"
+         data-speed="300"
+         data-start="500"
+         data-easing="Expo.easeOut"
+         style="z-index: 2"><img src="/img/man1.png" alt="Man"></div>
+
+    <!-- LAYER NR. 2 -->
+    <div class="tp-caption big_colorbg fade"
+         data-x="80"
+         data-y="70"
+         data-speed="300"
+         data-start="800"
+         data-easing="Expo.easeOut"
+         style="z-index: 3">Get the best spot prices</div>
+
+    <!-- LAYER NR. 3 -->
+    <div class="tp-caption medium_black fade"
+         data-x="80"
+         data-y="125"
+         data-speed="300"
+         data-start="1400"
+         data-easing="Expo.easeOut"
+         style="z-index: 4">Receive the best prices from<br/>
+        carriers directly in  your inbox</div>
+</li>
+<!-- SLIDE  -->
+<li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
+    <img src="/img/bg_light7.png" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+    <!-- LAYERS -->
+    <!-- LAYER NR. 1 -->
+    <div class="tp-caption sfl"
+         data-x="-5"
+         data-y="35"
+         data-speed="300"
+         data-start="500"
+         data-easing="Expo.easeOut"
+         style="z-index: 2"><img src="/img/boy1.png" alt=""></div>
+
+    <!-- LAYER NR. 2 -->
+    <div class="tp-caption handwriting_color fade"
+         data-x="437"
+         data-y="148"
+         data-speed="300"
+         data-start="800"
+         data-easing="Expo.easeOut"
+         style="z-index: 3">FreightForge</div>
+
+    <!-- LAYER NR. 3 -->
+    <div class="tp-caption sfr"
+         data-x="350"
+         data-y="110"
+         data-speed="300"
+         data-start="1100"
+         data-easing="Expo.easeOut"
+         style="z-index: 4"><img src="/img/lo.png" alt=""></div>
+
+    <!-- LAYER NR. 4 -->
+    <div class="tp-caption sfr"
+         data-x="358"
+         data-y="211"
+         data-speed="300"
+         data-start="1400"
+         data-easing="Expo.easeOut"
+         style="z-index: 5"><img src="/img/lu.png" alt=""></div>
+
+    <!-- LAYER NR. 5 -->
+    <div class="tp-caption sfl"
+         data-x="679"
+         data-y="108"
+         data-speed="300"
+         data-start="1800"
+         data-easing="Expo.easeOut"
+         style="z-index: 6"><img src="/img/ro.png" alt=""></div>
+
+    <!-- LAYER NR. 6 -->
+    <div class="tp-caption sfl"
+         data-x="690"
+         data-y="204"
+         data-speed="300"
+         data-start="2200"
+         data-easing="Expo.easeOut"
+         style="z-index: 7"><img src="/img/ru.png" alt=""></div>
+
+    <!-- LAYER NR. 7 -->
+    <div class="tp-caption medium_handwriting_color sfr"
+         data-x="267"
+         data-y="77"
+         data-speed="300"
+         data-start="1200"
+         data-easing="Expo.easeOut"
+         style="z-index: 8">Network</div>
+
+    <!-- LAYER NR. 8 -->
+    <div class="tp-caption medium_handwriting_color sfr"
+         data-x="177"
+         data-y="255"
+         data-speed="300"
+         data-start="1600"
+         data-easing="Expo.easeOut"
+         style="z-index: 9">Operational efficiency</div>
+
+    <!-- LAYER NR. 9 -->
+    <div class="tp-caption medium_handwriting_color sfl"
+         data-x="728"
+         data-y="79"
+         data-speed="300"
+         data-start="2000"
+         data-easing="Expo.easeOut"
+         style="z-index: 10">Sourcing compliance</div>
+
+    <!-- LAYER NR. 10 -->
+    <div class="tp-caption medium_handwriting_color sfl"
+         data-x="746"
+         data-y="262"
+         data-speed="300"
+         data-start="2400"
+         data-easing="Expo.easeOut"
+         style="z-index: 11">Cost control</div>
+</li>
+<!-- SLIDE  -->
+<li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
+    <img src="/img/bg_light3.png" alt="" >
+
+    <!-- LAYERS -->
+    <!-- LAYER NR. 1 -->
+    <div class="tp-caption fade"
+         data-x="353"
+         data-y="6"
+         data-speed="300"
+         data-start="800"
+         data-easing="Expo.easeOut"
+         style="z-index: 2"><img src="/img/man3.png" alt=""></div>
+
+    <!-- LAYER NR. 2 -->
+    <div class="tp-caption very_big_color sfl"
+         data-x="75"
+         data-y="105"
+         data-speed="300"
+         data-start="1100"
+         data-easing="Expo.easeOut"
+         style="z-index: 3">Business</div>
+
+    <!-- LAYER NR. 3 -->
+    <div class="tp-caption very_big_color sfl"
+         data-x="75"
+         data-y="150"
+         data-speed="300"
+         data-start="1100"
+         data-easing="Expo.easeOut"
+         style="z-index: 4">Development</div>
+
+    <!-- LAYER NR. 4 -->
+    <div class="tp-caption medium_grey lfb"
+         data-x="80"
+         data-y="215"
+         data-speed="600"
+         data-start="1400"
+         data-easing="Expo.easeOut"
+         style="z-index: 4">Receive quote requests from<br/>
+        shippers directly in your inbox</div>
+</li>
+<li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
+    <img src="/img/bg.png" alt="" >
+
+    <!-- LAYERS -->
+    <!-- LAYER NR. 1 -->
+    <div class="tp-caption lft"
+         data-x="17"
+         data-y="45"
+         data-speed="1500"
+         data-start="800"
+         data-easing="Elastic.easeOut"
+         style="z-index: 2"><img src="/img/laptop1.png" alt="Laptop"></div>
+
+    <!-- LAYER NR. 2 -->
+    <div class="tp-caption big_color lft"
+         data-x="510"
+         data-y="60"
+         data-speed="300"
+         data-start="1100"
+         data-easing="Expo.easeOut"
+         style="z-index: 3">It's free for shippers</div>
+
+    <!-- LAYER NR. 3 -->
+    <div class="tp-caption fade"
+         data-x="505"
+         data-y="99"
+         data-speed="300"
+         data-start="1400"
+         data-easing="Expo.easeOut"
+         style="z-index: 4"><a href="https://app.didrok.com/register?type=shipper" class="tp-button blue small">Sign Up Now</a></div>
+
+    <!-- LAYER NR. 4 -->
+    <div class="tp-caption lfr"
+         data-x="830"
+         data-y="210"
+         data-speed="300"
+         data-start="2600"
+         data-easing="Expo.easeOut"
+         style="z-index: 5"><img src="/img/browser_IE.png" alt="Internet Explorer"></div>
+
+    <!-- LAYER NR. 5 -->
+    <div class="tp-caption lfr"
+         data-x="730"
+         data-y="210"
+         data-speed="300"
+         data-start="2300"
+         data-easing="Expo.easeOut"
+         style="z-index: 6"><img src="/img/browser_Safari.png" alt="Safari"></div>
+
+    <!-- LAYER NR. 6 -->
+    <div class="tp-caption lfr"
+         data-x="630"
+         data-y="210"
+         data-speed="300"
+         data-start="2000"
+         data-easing="Expo.easeOut"
+         style="z-index: 7"><img src="/img/browser_Firefox.png" alt="Firefox"></div>
+
+    <!-- LAYER NR. 7 -->
+    <div class="tp-caption lfr"
+         data-x="530"
+         data-y="210"
+         data-speed="300"
+         data-start="1700"
+         data-easing="Expo.easeOut"
+         style="z-index: 8"><img src="/img/browser_Chrome.png" alt="Chrome"></div>
+</li>
+</ul>
+<div class="tp-bannertimer"></div>
+</div>
+</div>
+
+<script type="text/javascript">
+
+    var revapi;
+
+    jQuery(document).ready(function() {
+
+        revapi = jQuery('.fullwidthbanner').show().revolution(
+                {
+                    delay:9000,
+                    startwidth:960,
+                    startheight:350,
+                    hideThumbs:200,
+
+                    thumbWidth:100,
+                    thumbHeight:50,
+                    thumbAmount:4,
+
+                    navigationType:"none",
+                    navigationArrows:"solo",
+                    navigationStyle:"round",
+
+                    touchenabled:"on",
+                    onHoverStop:"on",
+
+                    navigationHAlign:"center",
+                    navigationVAlign:"bottom",
+                    navigationHOffset:0,
+                    navigationVOffset:20,
+
+                    soloArrowLeftHalign:"left",
+                    soloArrowLeftValign:"center",
+                    soloArrowLeftHOffset:0,
+                    soloArrowLeftVOffset:0,
+
+                    soloArrowRightHalign:"right",
+                    soloArrowRightValign:"center",
+                    soloArrowRightHOffset:0,
+                    soloArrowRightVOffset:0,
+
+                    shadow:3,
+                    fullWidth:"on",
+                    fullScreen:"off",
+
+                    stopLoop:"off",
+                    stopAfterLoops:-1,
+                    stopAtSlide:-1,
+
+                    shuffle:"off",
+
+                    autoHeight:"off",
+                    forceFullWidth:"off",
+
+                    hideThumbsOnMobile:"off",
+                    hideBulletsOnMobile:"on",
+                    hideArrowsOnMobile:"on",
+                    hideThumbsUnderResolution:0,
+
+                    hideSliderAtLimit:0,
+                    hideCaptionAtLimit:0,
+                    hideAllCaptionAtLilmit:0,
+                    startWithSlide:0,
+                    videoJsPath:"plugins/revslider/rs-plugin/videojs/",
+                    fullScreenOffsetContainer: ""
+                });
+
+    });	//ready
+
+</script>
+<!-- END REVOLUTION SLIDER -->
+</section>

@@ -1,0 +1,45 @@
+<div class="clearfix"></div>
+<hr class="large"/>
+<footer id="global-footer">
+    <nav id="footer-nav" role="navigation">
+        <div>
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="http://www.didrok.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.didrok.com']);">About Didrok</a></li>
+                <li><a href="/pricing">Pricing</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Support</h3>
+            <ul>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="/terms-of-use">Terms of use</a></li>
+                <li><a href="/privacy">Privacy policy</a></li>
+            </ul>
+        </div>
+    </nav>
+</footer>
+<div id="copyright" class="clearfix">
+    <div class="copyright-text">© 2014 <a href="http://www.didrok.com">Didrok SARL</a>. All rights reserved.</div>
+    <%= @partial('social') %>
+</div>
+</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '<%= @site.analyticsKey  %>', 'freightforge.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

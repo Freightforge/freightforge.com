@@ -1,0 +1,10 @@
+<%= @partial('header') %>
+<%= @partial('slider') %>
+<div class="clearfix"></div>
+
+<main role="main">
+    <section class="intro">
+		<%- @content %>
+    </section>
+</main>
+<%= @partial('footer') %>

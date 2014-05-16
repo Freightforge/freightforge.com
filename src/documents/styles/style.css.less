@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+// Core variables and mixins
+@import 'mixins.inc.less';
+
+// Variable
+@page-width: 960px;
+
+// Reset
+@import 'normalize.inc.less';
+@import 'print.inc.less';
+
+// Components
+@import 'navbar.inc.less';
+@import 'utilities.inc.less';
+@import 'toggle.inc.less';
+
+// Core CSS
+@import 'common.inc.less';
+@import 'social.inc.less';
+@import 'slider.inc.less';
+@import 'home.inc.less';
+@import 'pricing.inc.less';
+@import 'contact.inc.less';
+@import 'faq.inc.less';
+@import 'terms.inc.less';
+
+@media only screen and (max-width: 959px) {
+  #boxed-layout {
+    width: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none;
+
+    header, main, footer, section.title {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+  
+  body {
+    background-image: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+  #global-header, main, .home main, #global-footer nav#footer-nav , section.title h1 {
+    width: 748px;
+  }
+
+  .home main section.intro {
+    width: 748px;
+    >div {
+      width: 748px;
+
+      & + div {
+        margin-left: 0;
+      }
+    }
+  }
+
+  section.content {
+    margin: 0;
+    padding: 20px 0;
+    width: 748px;
+  }
+
+  .pricing-table {
+    width: 748px;
+
+    .plan {
+      width:372px;
+      margin-bottom:20px;
+
+     .featured{
+        font-size: 8px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  #global-header, main, .home main, #global-footer nav#footer-nav, section.title h1 {
+    width: 420px;
+  }
+
+  .home main section.intro {
+    width: 420px;
+    >div {
+      width: 420px;
+
+      & + div {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .iconbox {
+    width: 420px;
+    & + .iconbox {
+      margin-left: 0;
+    }
+  }
+  
+  section.content {
+    margin: 0;
+    padding: 20px 0;
+    width: 420px;
+  }
+  
+  .pricing-table {
+    width: 420px;
+    padding: 20px 0 0 0;
+
+    .plan {
+      width:418px;
+      margin-bottom:20px;
+
+     .featured{
+        margin-top:0;
+        font-size: 8px !important;
+        height: auto !important;
+        line-height: 21px !important;
+      }
+    }
+  }
+  
+  .callout {
+    .callout-content {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .callout-button {
+      float: none;
+      width: 100%;
+      margin: 0 0 20px 0 !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 479px) {
+
+  #global-header, main, .home main, #global-footer nav#footer-nav, section.title h1 {
+    width: 300px;
+  }
+
+  .home main section.intro {
+    width: 300px;
+    >div {
+      width: 300px;
+
+      & + div {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .iconbox {
+    width: 300px;
+    & + .iconbox {
+      margin-left: 0;
+    }
+  }
+  
+  section.content {
+    margin: 0;
+    padding: 10px 0;
+    width: 300px;
+  }
+
+  .pricing-table {
+    width: 300px;
+    padding: 20px 0 0 0;
+
+    .plan {
+      width:298px;
+      margin-bottom:20px;
+
+     .featured{
+        margin-top:0;
+        font-size: 8px !important;
+        height: auto !important;
+        line-height: 21px !important;
+      }
+    }
+  }
+
+  .callout {
+    .callout-content {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .callout-button {
+      float: none;
+      width: 100%;
+      margin: 0 0 20px 0 !important;
+    }
+  }
+}
