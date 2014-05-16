@@ -17,7 +17,7 @@ class: "pricing"
       <li><strong>Free Unlimited</strong>&nbsp;Closed groups</li>
       <li><strong>Free Unlimited</strong>&nbsp;Bid requests</li>
     </ul>
-    <div class="signup"><a class="button" href="https://app.freightforge.com/register?type=shipper">Sign Up</a></div>
+    <div class="signup"><a class="button" href="<%= @site.appUrl %>/register?type=shipper" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','<%= @site.appUrl %>']);">Sign Up</a></div>
   </div>
   <div class="plan green">
     <div class="featured">Pay only when you choose to bid or when you win business</div>
@@ -30,7 +30,7 @@ class: "pricing"
       <li><strong>0.05% of the quoted price</strong> when you bid</li>
       <li><strong>0.5% of the quoted price</strong> when you win business</li>
     </ul>
-    <div class="signup"><a class="button" href="https://app.freightforge.com/register?type=carrier">Sign Up</a></div>
+    <div class="signup"><a class="button" href="<%= @site.appUrl %>/register?type=carrier" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','<%= @site.appUrl %>']);">Sign Up</a></div>
   </div>
 </div>
 
@@ -44,6 +44,6 @@ class: "pricing"
       The minimum amount for recharging your account is 10 EUR.<br>
       Invoices are available for download in signed pdf format.</p>
     </div>
-    <div class="callout-button"><a class="button large blue" href="https://app.freightforge.com/register" target="_self">Sign Up</a></div>
+    <div class="callout-button"><a class="button large blue" href="<%= @site.appUrl %>/register" target="_self" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','<%= @site.appUrl %>']);">Sign Up</a></div>
   </div>
 </div>

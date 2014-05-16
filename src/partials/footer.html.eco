@@ -26,7 +26,7 @@
     </nav>
 </footer>
 <div id="copyright" class="clearfix">
-    <div class="copyright-text">© 2014 <a href="http://www.didrok.com">Didrok SARL</a>. All rights reserved.</div>
+    <div class="copyright-text">© 2014 <a href="http://www.didrok.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.didrok.com']);">Didrok SARL</a>. All rights reserved.</div>
     <%= @partial('social') %>
 </div>
 </div>

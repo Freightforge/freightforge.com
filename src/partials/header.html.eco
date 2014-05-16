@@ -19,13 +19,13 @@
             </div>
         </div>
         -->
-        <form id="login_form" action="https://app.didrok.com/signup" method="post">
+        <form id="login_form" action="<%= @site.appUrl %>/signup" method="post">
             <input type="hidden" value="true" name="use_token">
             <input type="hidden" value="/" name="redirect">
             <input type="email" placeholder="Email" name="j_username">
             <input type="password" placeholder="Password" name="j_password">
             <input type="submit" value="Log In">
-            <a class="button" href="https://app.didrok.com/register">Register</a>
+            <a class="button" href="<%= @site.appUrl %>/register" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','<%= @site.appUrl %>']);">Register</a>
         </form>
     </div>
     <nav role="navigation" class="affix-top" data-spy="affix" data-offset-top="100">

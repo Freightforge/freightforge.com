@@ -18,7 +18,7 @@ lang: "fr"
       <li>Groupes restreints&nbsp;<strong>illimit&eacute;s</strong></li>
       <li>Appel d’offres&nbsp;<strong>illimit&eacute;s</strong></li>
     </ul>
-    <div class="signup"><a class="button" href="https://app.freightforge.com/register?type=shipper&lang=fr">Inscrivez-vous</a></div>
+    <div class="signup"><a class="button" href="<%= @site.appUrl %>/register?type=shipper&lang=fr" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','<%= @site.appUrl %>']);">Inscrivez-vous</a></div>
   </div>
   <div class="plan green">
     <div class="featured">Ne payez qu’&agrave; la soumission et quand vous gagnez l’appel d’offre</div>
@@ -31,7 +31,7 @@ lang: "fr"
       <li><strong>0.05% de l'offre</strong> lors de la soummision</li>
       <li><strong>0.5% de l'offre</strong> quand vous gagnez le march&eacute;</li>
     </ul>
-    <div class="signup"><a class="button" href="https://app.freightforge.com/register?type=carrier&lang=fr">Inscrivez-vous</a></div>
+    <div class="signup"><a class="button" href="<%= @site.appUrl %>/register?type=carrier&lang=fr" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','<%= @site.appUrl %>']);">Inscrivez-vous</a></div>
   </div>
 </div>
 
@@ -45,6 +45,6 @@ lang: "fr"
         Le montant minimum pour recharger votre compte est de 10 euros.<br>
         Les factures sont disponibles en t&eacute;l&eacute;chargement au format pdf sign&eacute;.</p>
     </div>
-    <div class="callout-button"><a class="button large blue" href="https://app.freightforge.com/register?lang=fr" target="_self">Inscrivez-vous</a></div>
+    <div class="callout-button"><a class="button large blue" href="<%= @site.appUrl %>/register?lang=fr" target="_self" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','<%= @site.appUrl %>']);">Inscrivez-vous</a></div>
   </div>
 </div>

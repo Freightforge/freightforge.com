@@ -202,7 +202,7 @@
          data-speed="300"
          data-start="1400"
          data-easing="Expo.easeOut"
-         style="z-index: 4"><a href="https://app.didrok.com/register?type=shipper" class="tp-button blue small">Sign Up Now</a></div>
+         style="z-index: 4"><a href="<%= @site.appUrl %>/register?type=shipper" class="tp-button blue small" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','<%= @site.appUrl %>']);">Sign Up Now</a></div>
 
     <!-- LAYER NR. 4 -->
     <div class="tp-caption lfr"
